@@ -43,3 +43,9 @@ void menu() {
     }
     
 }
+
+int suma(int a, int b) {
+    int resultado = a + b;
+    printf("El resultado es %d\n", resultado);
+    return 1;
+}
