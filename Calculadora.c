@@ -43,3 +43,19 @@ void menu() {
     }
     
 }
+
+float div(int a, int b) {
+
+    float r;
+
+    if(b==0){
+
+        printf("La division no es valida");
+
+    }else{
+
+        r=a/b;
+    }
+    printf("el resultado es: %f", r);
+    return r;
+}
