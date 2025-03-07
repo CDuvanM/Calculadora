@@ -43,3 +43,11 @@ void menu() {
     }
     
 }
+
+int multi(int a, int b) {
+    int resultado;
+    
+    resultado = a * b;
+    printf("El resultado es: %d", resultado);
+    return 0;
+}
