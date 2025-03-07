@@ -43,3 +43,9 @@ void menu() {
     }
     
 }
+int resta(int a, int b) {
+    int c = 0;
+    c=a-b;
+    printf("El resultado de tu resta es: %d",c);
+    return 1;
+}
