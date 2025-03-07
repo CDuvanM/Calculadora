@@ -49,3 +49,11 @@ int suma(int a, int b) {
     printf("El resultado es %d\n", resultado);
     return 1;
 }
+float modulo(int a, int b) {
+    if(b==0){
+        printf("la division no es valida");
+        return 0;
+    }
+    printf("el resultado es: %f", a%b);
+    return a % b;
+}
